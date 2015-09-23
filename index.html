@@ -25,7 +25,17 @@
     		<div id="cal-heatmap"></div>
 			<script type="text/javascript">
 				var cal = new CalHeatMap();
-				cal.init({});
+				cal.init({
+					
+					itemSelector: "#domain-a",
+					domain: "month",
+					subDomain: "day",
+					cellSize: 20,
+					subDomainTextFormat: "%d",
+					range: 1,
+					displayLegend: false
+
+				});
 			</script>
 		</div><!-- /.container -->
 		<footer>
