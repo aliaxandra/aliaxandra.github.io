@@ -9,9 +9,11 @@ nav ul, footer ul {
     font-weight: bold;
     visibility: hidden;
 }
-nav ul li, footer ul li {
-    display: inline;
+ul li, nav ul li, footer ul li {
+    font-family: 'Lato', 'Sans-Serif';    
     margin-right: 20px;
+    list-style-type: none;
+    line-height: 1.8em;     
 }
 a {
     text-decoration: none;
@@ -27,7 +29,7 @@ h1 {
 p {
     font-family: 'Lato', 'Sans-Serif';
     font-size: 1.1em;
-    line-height: 1.4em;
+    line-height: 1.8em;
     color: #333;
 }
 footer {
